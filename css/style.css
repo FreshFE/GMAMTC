@@ -2034,7 +2034,7 @@ pre code {
 @media (min-width: 1200px) {
   /* line 10, ../sass/sass/bootstrap-sass/bootstrap/_grid.scss */
   .container {
-    width: 1050px;
+    width: 1190px;
   }
 }
 
@@ -7904,4 +7904,14 @@ button.close {
 .img-fullscreen {
   display: block;
   width: 100%;
+}
+
+/* line 6, ../sass/sass/app/_carousel.scss */
+.carousel-indicators {
+  display: none;
+}
+
+/* line 10, ../sass/sass/app/_carousel.scss */
+.carousel-caption {
+  display: none;
 }
