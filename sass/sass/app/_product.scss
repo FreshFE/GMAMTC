@@ -1,0 +1,38 @@
+.product-block {
+
+}
+
+.product-block-title {
+	font-size: 22px;
+	color: #db5049;
+	text-align: center;
+	border-bottom: solid 1px #e5e5e5;
+	padding: 20px 0;
+}
+
+.product-square {
+	> h3 {
+		color: #797979;
+		font-size: 18px;
+		font-weight: normal;
+	}
+	> img {
+		display: block;
+		width: 100%;
+	}
+}
+
+.product-feature {
+
+	margin-bottom: 20px;
+
+	> img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	> .img-caption {
+		color: #797979;
+		text-align: center;
+	}
+}

@@ -1,0 +1,62 @@
+.case-board {
+
+	$width: 100%;
+	$height: 100%;
+	$imgWidth: 164px;
+
+	margin-bottom: 40px;
+
+	> .inner {
+		position: relative;
+		width: $width;
+		height: $height;
+
+		> img {
+			display: block;
+			width: 100%;
+		}
+		> .img-caption {
+			position: absolute;
+			width: $width;
+			height: $height;
+			top: 0;
+			left: 0;
+			background: #db5049;
+			color: #fff;
+			z-index: 1;
+			line-height: $height;
+			text-align: center;
+			font-size: 24px;
+			cursor: default;
+
+			> .glyphicon {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-left: -12px;
+				margin-top: -14px;
+			}
+		}
+	}
+
+	> .desc {
+		text-align: center;
+		color: #7b7b7b;
+		padding: 10px 0;
+	}
+}
+
+.case-board {
+	> .inner {
+		> .img-caption {
+			@include opacity(0);
+			@include transition-duration(300ms);
+		}
+		&:hover {
+			> .img-caption {
+				@include opacity(1);
+				@include transition(300ms opacity linear);
+			}
+		}
+	}
+}

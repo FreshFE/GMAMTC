@@ -1,0 +1,40 @@
+@import "compass/css3";
+
+.update-block {
+}
+
+.update-block-title {
+	color: #b8b8b8;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.update-board {
+	background: #fff;
+	padding: 30px 30px;
+	margin-bottom: 20px;
+	@include border-radius(2px);
+
+	> .title,
+	> em {
+		color: #666;
+		line-height: 35px;
+	}
+	> .title {
+		float: left;
+	}
+	> em {
+		float: right;
+		font-style: normal;
+		margin-right: 20px;
+	}
+	> .glyphicon {
+		float: right;
+		color: #aaa;
+		font-size: 30px;
+		vertical-align: middle;
+	}
+	> .glyphicon-ok {
+		color: #3ec77b;
+	}
+}

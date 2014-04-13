@@ -1,0 +1,76 @@
+@import "../bootstrap-sass/bootstrap/variables";
+@import "compass/css3";
+
+body.theme-help {
+	background: #333 url(../img/bg_help.png) no-repeat;
+
+	@media (max-width: $screen-sm-min) {
+		background: transparent;
+		background: #333;
+	}
+}
+
+.help-block {
+	margin: 40px 0;
+}
+
+.help-board {
+	background: #fff;
+	background: rgba(255,255,255,.9);
+	padding: 20px;
+	@include border-radius(2px);
+}
+
+.help-board-title {
+	color: #2e3649;
+	margin-top: 0;
+}
+
+.help-board-desc {
+	color: #6b6868;
+	margin-bottom: 20px;
+}
+
+.help-board-nav {
+
+	margin-left: -10px;
+
+	> li {
+		> a {
+			padding: 20px 10px;
+
+			> h2 {
+				margin: 0;
+				padding: 0;
+				font-size: 1.8em;
+				margin-bottom: 10px;
+				color: #2e3649;
+
+				> .glyphicon {
+					color: #db5049;
+				}
+			}
+
+			> p {
+				color: #6b6868;
+				margin: 0;
+			}
+
+			&:hover {
+				background: darken(#e2e2e3, 5%);
+				@include border-radius(2px);
+			}
+		}
+	}
+}
+
+.help-board-contact {
+	strong {
+		font-size: 1.5em;
+		color: #2e3649;
+	}
+
+	img {
+		max-width: 60%;
+	}
+}
