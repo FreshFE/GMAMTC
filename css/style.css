@@ -7906,6 +7906,12 @@ button.close {
   margin: 0 auto;
 }
 
+/* line 72, ../sass/sass/app/_layout.scss */
+.footer {
+  min-height: 90px;
+  background: #f2f2f2;
+}
+
 /* line 1, ../sass/sass/app/_utils.scss */
 .img-fullscreen {
   display: block;
@@ -7978,4 +7984,9 @@ button.close {
   padding: 0;
   margin: 0;
   line-height: 12px;
+}
+
+/* line 59, ../sass/sass/app/_home.scss */
+.home-service {
+  min-height: 120px;
 }
