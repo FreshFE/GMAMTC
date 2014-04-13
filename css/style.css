@@ -7835,6 +7835,71 @@ button.close {
     display: none !important;
   }
 }
+/* line 4, ../sass/sass/app/_layout.scss */
+.header {
+  height: 75px;
+  background: url(../img/header_bg.gif) repeat-x;
+  border-bottom: solid 1px #c5c5c5;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* line 10, ../sass/sass/app/_layout.scss */
+.header .navbar-brand {
+  width: 179px;
+  height: 33px;
+  padding: 0;
+  margin: 0;
+  background: url(../img/logo.gif) no-repeat;
+  line-height: 0;
+  font-size: 0;
+  text-indent: -9999px;
+  margin-top: 22px;
+}
+/* line 22, ../sass/sass/app/_layout.scss */
+.header .navbar-menu {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+/* line 26, ../sass/sass/app/_layout.scss */
+.header .navbar-menu > li > a {
+  color: #345886;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+/* line 36, ../sass/sass/app/_layout.scss */
+.header .navbar-menu > li > a:hover, .header .navbar-menu > li > a:active,
+.header .navbar-menu > .active > a:hover,
+.header .navbar-menu > .active > a:active {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(0, 0, 0, 0.2)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%);
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%);
+  background: -o-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%);
+  -webkit-box-shadow: inset 2px 0 1px rgba(0, 0, 0, 0.01), inset -2px 0 1px rgba(0, 0, 0, 0.01);
+  -moz-box-shadow: inset 2px 0 1px rgba(0, 0, 0, 0.01), inset -2px 0 1px rgba(0, 0, 0, 0.01);
+  box-shadow: inset 2px 0 1px rgba(0, 0, 0, 0.01), inset -2px 0 1px rgba(0, 0, 0, 0.01);
+}
+/* line 46, ../sass/sass/app/_layout.scss */
+.header .navbar-panel {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+/* line 50, ../sass/sass/app/_layout.scss */
+.header .navbar-panel > li > a {
+  padding: 15px 2px;
+  font-size: 10px;
+  color: #a9a9a9;
+}
+/* line 59, ../sass/sass/app/_layout.scss */
+.header .navbar-panel > li > a:hover, .header .navbar-panel > li > a:active,
+.header .navbar-panel > .active > a:hover,
+.header .navbar-panel > .active > a:active {
+  color: #767676;
+  background: transparent;
+}
+
 /* line 1, ../sass/sass/app/_utils.scss */
 .img-fullscreen {
   display: block;

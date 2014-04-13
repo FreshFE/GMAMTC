@@ -2,7 +2,66 @@
 
 
 .header {
+	height: 75px;
+	background: url(../img/header_bg.gif) repeat-x;
+	border-bottom: solid 1px darken(#d2d2d2, 5%);
+	@include box-shadow(0 0 10px rgba(0,0,0,.1));
 
+	.navbar-brand {
+		width: 179px;
+		height: 33px;
+		padding: 0;
+		margin: 0;
+		background: url(../img/logo.gif) no-repeat;
+		line-height: 0;
+		font-size: 0;
+		text-indent: -9999px;
+		margin-top: 22px;
+	}
+
+	.navbar-menu {
+		margin-top: 10px;
+		margin-left: 20px;
+
+		> li > a {
+			color: #345886;
+			font-weight: bold;
+			text-transform: uppercase;
+			font-size: 12px;
+		}
+
+		> li > a,
+		> .active > a {
+			&:hover,
+			&:active {
+				@include background(linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,.2) 50%, rgba(0,0,0,0) 100%));
+				@include box-shadow(
+						inset 2px 0 1px rgba(0,0,0,.01),
+						inset -2px 0 1px rgba(0,0,0,.01)
+					);
+			}
+		}
+	}
+
+	.navbar-panel {
+		margin-top: 10px;
+		margin-left: 20px;
+
+		> li > a {
+			padding: 15px 2px;
+			font-size: 10px;
+			color: #a9a9a9;
+		}
+
+		> li > a,
+		> .active > a {
+			&:hover,
+			&:active {
+				color: darken(#a9a9a9, 20%);
+				background: transparent;
+			}
+		}
+	}
 }
 
 .footer {
