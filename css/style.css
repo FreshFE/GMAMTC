@@ -7900,6 +7900,12 @@ button.close {
   background: transparent;
 }
 
+/* line 67, ../sass/sass/app/_layout.scss */
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /* line 1, ../sass/sass/app/_utils.scss */
 .img-fullscreen {
   display: block;
@@ -7914,4 +7920,62 @@ button.close {
 /* line 10, ../sass/sass/app/_carousel.scss */
 .carousel-caption {
   display: none;
+}
+
+/* line 4, ../sass/sass/app/_home.scss */
+.home-notice {
+  height: 35px;
+  background: #0194d5;
+  overflow: hidden;
+}
+
+/* line 12, ../sass/sass/app/_home.scss */
+.home-notice-heading,
+.home-notice-body p,
+.home-notice-mark {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 35px;
+}
+
+/* line 17, ../sass/sass/app/_home.scss */
+.home-notice-heading {
+  width: 25%;
+}
+
+/* line 21, ../sass/sass/app/_home.scss */
+.home-notice-body {
+  width: 70%;
+}
+
+/* line 25, ../sass/sass/app/_home.scss */
+.home-notice-mark {
+  width: 5%;
+  text-align: right;
+}
+
+/* line 30, ../sass/sass/app/_home.scss */
+.home-news {
+  background: #00aeef;
+  padding: 20px 0;
+}
+
+/* line 39, ../sass/sass/app/_home.scss */
+.home-news-body {
+  margin-left: 90px;
+}
+/* line 42, ../sass/sass/app/_home.scss */
+.home-news-body h3 {
+  font-size: 12px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+}
+/* line 50, ../sass/sass/app/_home.scss */
+.home-news-body p {
+  font-size: 9px;
+  color: #cceffc;
+  padding: 0;
+  margin: 0;
+  line-height: 12px;
 }
