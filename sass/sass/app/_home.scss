@@ -57,5 +57,33 @@
 }
 
 .home-service {
-	min-height: 120px;
+	padding: 20px 0;
+}
+
+.home-service-block {
+	border-right: solid 1px #eee;
+}
+
+.home-service-object {
+
+}
+
+.home-service-body {
+	h3 {
+		font-size: 12px;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 5px;
+	}
+	p {
+		font-size: 9px;
+		color: #999;
+		padding: 0;
+		margin: 0;
+		line-height: 12px;
+	}
+}
+
+.home-service-mark {
+	margin: 5px 0;
 }
