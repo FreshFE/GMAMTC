@@ -7908,8 +7908,24 @@ button.close {
 
 /* line 72, ../sass/sass/app/_layout.scss */
 .footer {
-  min-height: 90px;
   background: #f2f2f2;
+  padding: 30px 0;
+}
+/* line 77, ../sass/sass/app/_layout.scss */
+.footer .footer-nav {
+  font-size: 9px;
+  line-height: 14px;
+  color: #c2c2c2;
+}
+/* line 82, ../sass/sass/app/_layout.scss */
+.footer .footer-nav a {
+  color: #7f7f7f;
+}
+/* line 87, ../sass/sass/app/_layout.scss */
+.footer .copyright {
+  font-size: 9px;
+  line-height: 14px;
+  color: #adadad;
 }
 
 /* line 1, ../sass/sass/app/_utils.scss */
@@ -7988,7 +8004,7 @@ button.close {
 
 /* line 59, ../sass/sass/app/_home.scss */
 .home-service {
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 /* line 63, ../sass/sass/app/_home.scss */

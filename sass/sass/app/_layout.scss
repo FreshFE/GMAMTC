@@ -70,6 +70,23 @@
 }
 
 .footer {
-	min-height: 90px;
+	// min-height: 90px;
 	background: #f2f2f2;
+	padding: 30px 0;
+
+	.footer-nav {
+		font-size: 9px;
+		line-height: 14px;
+		color: #c2c2c2;
+
+		a {
+			color: #7f7f7f;
+		}
+	}
+
+	.copyright {
+		font-size: 9px;
+		line-height: 14px;
+		color: #adadad;
+	}
 }
