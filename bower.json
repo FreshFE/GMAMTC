@@ -8,6 +8,7 @@
 		"modernizr": "2.7.2",
       	"wysihtml5": "0.3.0",
       	"holderjs": "*",
-      	"fontawesome": "*"
+      	"fontawesome": "*",
+      	"smalot-bootstrap-datetimepicker": "*"
 	}
 }
