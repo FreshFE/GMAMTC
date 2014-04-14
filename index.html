@@ -139,8 +139,24 @@
 													<div class="form-group">
 														<label class="col-sm-2 control-label">Period</label>
 														<div class="col-sm-7">
-															<input type="text" class="form-control" placeholder="2014-04-01">
-															<input type="text" class="form-control" placeholder="2014-04-02">
+															<div class="row">
+																<div class="col-sm-6" style="padding-right: 3px;">
+																	<div class="input-group">
+																		<input type="text" class="form-control form-datetime" placeholder="Start date">
+																		<span class="input-group-addon">
+																			<span class="glyphicon glyphicon-calendar"></span>
+																		</span>
+																	</div>
+																</div>
+																<div class="col-sm-6" style="padding-left: 3px;">
+																	<div class="input-group">
+																		<input type="text" class="form-control form-datetime" placeholder="End date">
+																		<span class="input-group-addon">
+																			<span class="glyphicon glyphicon-calendar"></span>
+																		</span>
+																	</div>
+																</div>
+															</div>
 														</div>
 														<div class="col-sm-3 col-reduce">
 															<button class="btn btn-primary btn-sm">Search</button>
@@ -247,6 +263,18 @@
 	<div class="footer">
 
 	</div>
+
+	<link rel="stylesheet" type="text/css" href="/bower_components/smalot-bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css">
+	<script type="text/javascript" src="/bower_components/smalot-bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+		    $('.form-datetime').datetimepicker({
+		    	format: 'yyyy-mm-dd',
+				autoclose: 1,
+				minView: 2
+		    });
+		});
+	</script>
 
 </body>
 </html>

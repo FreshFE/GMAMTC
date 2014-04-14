@@ -96,7 +96,7 @@
 .home-switch-wrapper {
 	position: absolute;
 	width: 100%;
-	height: 300px;
+	height: 280px;
 	background: #dfe8ef;
 	bottom: -75px;
 	@include box-shadow(0 0 10px rgba(0,0,0,.1));
@@ -178,5 +178,10 @@
 	.col-reduce {
 		padding-left: 5px;
 		padding-right: 5px;
+	}
+
+	.input-group-addon {
+		padding: 1px 5px;
+		@include border-radius(0);
 	}
 }
