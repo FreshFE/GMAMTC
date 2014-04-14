@@ -8016,3 +8016,110 @@ button.close {
 .home-service-mark {
   margin: 5px 0;
 }
+
+/* line 91, ../sass/sass/app/_home.scss */
+.home-switch {
+  position: relative;
+  width: 100%;
+}
+
+/* line 96, ../sass/sass/app/_home.scss */
+.home-switch-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background: #dfe8ef;
+  bottom: -75px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* line 104, ../sass/sass/app/_home.scss */
+.home-switch-wrapper > .inner {
+  padding: 5px 10px;
+}
+
+/* line 109, ../sass/sass/app/_home.scss */
+.home-switch-heading {
+  font-size: 14px;
+  color: #30517b;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* line 116, ../sass/sass/app/_home.scss */
+.home-switch-nav {
+  margin-bottom: 10px;
+}
+/* line 120, ../sass/sass/app/_home.scss */
+.home-switch-nav > li > a {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 12px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  background: #aabbcf;
+  color: #fff;
+}
+/* line 129, ../sass/sass/app/_home.scss */
+.home-switch-nav > li.active > a {
+  background: #2c5385;
+}
+/* line 136, ../sass/sass/app/_home.scss */
+.home-switch-nav > li > a:hover, .home-switch-nav > li > a:active,
+.home-switch-nav > li.active > a:hover,
+.home-switch-nav > li.active > a:active {
+  background: #2c5385;
+}
+
+/* line 142, ../sass/sass/app/_home.scss */
+.home-switch-form {
+  font-size: 12px;
+}
+/* line 145, ../sass/sass/app/_home.scss */
+.home-switch-form .form-group {
+  margin-bottom: 5px;
+}
+/* line 149, ../sass/sass/app/_home.scss */
+.home-switch-form .control-label {
+  padding-top: 3px;
+  font-size: 12px;
+  text-align: left;
+}
+/* line 155, ../sass/sass/app/_home.scss */
+.home-switch-form .form-control {
+  height: 22px;
+  padding: 0px 3px;
+  font-size: 12px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 163, ../sass/sass/app/_home.scss */
+.home-switch-form .btn-sm, .home-switch-form .btn-group-sm > .btn {
+  height: 22px;
+  line-height: 1;
+}
+/* line 168, ../sass/sass/app/_home.scss */
+.home-switch-form .btn-primary {
+  background: #2c5386;
+  border: none;
+}
+/* line 172, ../sass/sass/app/_home.scss */
+.home-switch-form .btn-primary:hover {
+  background: #264773;
+  color: #fff;
+}
+/* line 178, ../sass/sass/app/_home.scss */
+.home-switch-form .col-reduce {
+  padding-left: 5px;
+  padding-right: 5px;
+}
