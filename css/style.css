@@ -8116,6 +8116,45 @@ body {
   border-width: 2px;
 }
 
+/* line 1, ../sass/sass/app/_media.scss */
+.media-group {
+  border-top: solid 2px #264773;
+}
+
+/* line 5, ../sass/sass/app/_media.scss */
+.media {
+  border-bottom: solid 1px #ddd;
+  padding: 20px 0;
+}
+
+/* line 10, ../sass/sass/app/_media.scss */
+.media-object {
+  display: block;
+  border: solid 1px #ddd;
+  width: 120px;
+  height: 65px;
+  overflow: hidden;
+}
+
+/* line 19, ../sass/sass/app/_media.scss */
+.media-body p {
+  font-size: 12px;
+  color: #666;
+}
+
+/* line 25, ../sass/sass/app/_media.scss */
+.media-heading {
+  margin-top: 5px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+/* line 31, ../sass/sass/app/_media.scss */
+.media-datetime {
+  color: #2c5386;
+  font-size: 12px;
+}
+
 /**
  * 深蓝色 PressRelease
  */
