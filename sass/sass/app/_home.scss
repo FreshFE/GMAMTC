@@ -192,5 +192,18 @@
 	.input-group-addon {
 		padding: 1px 5px;
 		@include border-radius(0);
+
+/**
+ * 轮播广告部分
+ */
+.home-carousel {
+	margin-top: -12px;
+
+	.carousel-indicators {
+	    display: none;
+	}
+
+	.carousel-caption {
+	    display: none;
 	}
 }
