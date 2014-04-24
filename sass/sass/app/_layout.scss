@@ -103,3 +103,28 @@ body {
 		color: #adadad;
 	}
 }
+
+.sidebar-title {
+	color: $brand-primary;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+
+.mainarea-title {
+	color: #111;
+	font-size: 30px;
+	margin-top: 0;
+}
+
+.breadcrumb {
+	float: right;
+	background: transparent;
+	.glyphicon {
+		font-size: 6px;
+		margin-right: 6px;
+	}
+	> li > a {
+		font-size: 12px;
+	}
+}

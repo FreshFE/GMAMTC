@@ -7958,6 +7958,36 @@ body {
   color: #adadad;
 }
 
+/* line 107, ../sass/sass/app/_layout.scss */
+.sidebar-title {
+  color: #2c5386;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+/* line 114, ../sass/sass/app/_layout.scss */
+.mainarea-title {
+  color: #111;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+/* line 120, ../sass/sass/app/_layout.scss */
+.breadcrumb {
+  float: right;
+  background: transparent;
+}
+/* line 123, ../sass/sass/app/_layout.scss */
+.breadcrumb .glyphicon {
+  font-size: 6px;
+  margin-right: 6px;
+}
+/* line 127, ../sass/sass/app/_layout.scss */
+.breadcrumb > li > a {
+  font-size: 12px;
+}
+
 /* line 1, ../sass/sass/app/_utils.scss */
 .img-fullscreen {
   display: block;
@@ -8032,6 +8062,26 @@ body {
 .dropdown-pane .pane-divide > .nav > li .nav > li > a:hover {
   background: transparent;
   text-decoration: underline;
+}
+
+/* line 1, ../sass/sass/app/_article.scss */
+.article {
+  margin-bottom: 20px;
+}
+
+/* line 5, ../sass/sass/app/_article.scss */
+.article-title {
+  color: #5284c6;
+  font-size: 20px;
+}
+
+/* line 10, ../sass/sass/app/_article.scss */
+.article-content {
+  color: #666;
+}
+/* line 12, ../sass/sass/app/_article.scss */
+.article-content img {
+  margin-bottom: 15px;
 }
 
 /**

@@ -1,0 +1,15 @@
+.article {
+	margin-bottom: 20px;
+}
+
+.article-title {
+	color: lighten($brand-primary, 20%);
+	font-size: 20px;
+}
+
+.article-content {
+	color: #666;
+	img {
+		margin-bottom: 15px;
+	}
+}
