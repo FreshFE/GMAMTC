@@ -39,9 +39,15 @@ body {
 			line-height: 30px;
 		}
 		> li > a,
-		> .active > a {
+		> .active > a,
+		> .open > a {
 			&:hover,
 			&:active {
+				@include gradient-vertical(#eee, #d2d2d2);
+			}
+		}
+		> .open > a {
+			& {
 				@include gradient-vertical(#eee, #d2d2d2);
 			}
 		}
