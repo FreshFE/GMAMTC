@@ -7988,6 +7988,22 @@ body {
   font-size: 12px;
 }
 
+/* line 133, ../sass/sass/app/_layout.scss */
+.nav-sidebar > li {
+  border-bottom: solid 1px #ddd;
+}
+/* line 136, ../sass/sass/app/_layout.scss */
+.nav-sidebar > li > a {
+  padding: 5px 12px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* line 143, ../sass/sass/app/_layout.scss */
+.sidebar-banner {
+  margin-bottom: 12px;
+}
+
 /* line 1, ../sass/sass/app/_utils.scss */
 .img-fullscreen {
   display: block;

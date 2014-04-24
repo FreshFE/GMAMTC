@@ -128,3 +128,18 @@ body {
 		font-size: 12px;
 	}
 }
+
+.nav-sidebar {
+	> li {
+		border-bottom: solid 1px #ddd;
+	}
+	> li > a {
+		padding: 5px 12px;
+		font-size: 13px;
+		font-weight: bold;
+	}
+}
+
+.sidebar-banner {
+	margin-bottom: 12px;
+}
