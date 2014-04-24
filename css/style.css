@@ -7953,16 +7953,6 @@ body {
   width: 100%;
 }
 
-/* line 6, ../sass/sass/app/_carousel.scss */
-.carousel-indicators {
-  display: none;
-}
-
-/* line 10, ../sass/sass/app/_carousel.scss */
-.carousel-caption {
-  display: none;
-}
-
 /**
  * 深蓝色 PressRelease
  */
@@ -8078,7 +8068,6 @@ body {
   background: #dfe8ef;
   bottom: -75px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 /* line 113, ../sass/sass/app/_home.scss */
@@ -8103,10 +8092,6 @@ body {
   padding-top: 4px;
   padding-bottom: 4px;
   font-size: 12px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
   border-radius: 0;
   background: #aabbcf;
   color: #fff;
@@ -8141,13 +8126,8 @@ body {
   height: 22px;
   padding: 0px 3px;
   font-size: 12px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
   border-radius: 0;
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 /* line 172, ../sass/sass/app/_home.scss */
@@ -8173,9 +8153,21 @@ body {
 /* line 192, ../sass/sass/app/_home.scss */
 .home-switch-form .input-group-addon {
   padding: 1px 5px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
   border-radius: 0;
+}
+
+/**
+ * 轮播广告部分
+ */
+/* line 201, ../sass/sass/app/_home.scss */
+.home-carousel {
+  margin-top: -12px;
+}
+/* line 204, ../sass/sass/app/_home.scss */
+.home-carousel .carousel-indicators {
+  display: none;
+}
+/* line 208, ../sass/sass/app/_home.scss */
+.home-carousel .carousel-caption {
+  display: none;
 }
