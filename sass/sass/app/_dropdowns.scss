@@ -1,5 +1,5 @@
 .dropdown-pane {
-    min-width: 360px;
+    min-width: 360px;   // 建议每栏宽度控制在180px，默认最小宽度为360px，建议在div中使用style属性添加
     @include clearfix();
     .pane-divide {
         border-left: solid 1px #ddd;
