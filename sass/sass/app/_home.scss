@@ -1,6 +1,6 @@
-@import "../bootstrap-sass/bootstrap/variables";
-@import "compass/css3";
-
+/**
+ * 深蓝色 PressRelease
+ */
 .home-notice {
 	height: 35px;
 	background: #0194d5;
@@ -27,6 +27,9 @@
 	text-align: right;
 }
 
+/**
+ * 淡蓝色新闻部分
+ */
 .home-news {
 	background: #00aeef;
 	padding: 20px 0;
@@ -56,6 +59,9 @@
 	}
 }
 
+/**
+ * 白色企业链接部分
+ */
 .home-service {
 	padding: 40px 0;
 }
@@ -88,6 +94,9 @@
 	margin: 5px 0;
 }
 
+/**
+ * 选择框部分
+ */
 .home-switch {
 	position: relative;
 	width: 100%;

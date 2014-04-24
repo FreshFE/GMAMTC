@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /* line 9, ../sass/sass/bootstrap-sass/bootstrap/_normalize.scss */
 html {
@@ -7962,6 +7963,9 @@ body {
   display: none;
 }
 
+/**
+ * 深蓝色 PressRelease
+ */
 /* line 4, ../sass/sass/app/_home.scss */
 .home-notice {
   height: 35px;
@@ -7993,17 +7997,20 @@ body {
   text-align: right;
 }
 
-/* line 30, ../sass/sass/app/_home.scss */
+/**
+ * 淡蓝色新闻部分
+ */
+/* line 33, ../sass/sass/app/_home.scss */
 .home-news {
   background: #00aeef;
   padding: 20px 0;
 }
 
-/* line 39, ../sass/sass/app/_home.scss */
+/* line 42, ../sass/sass/app/_home.scss */
 .home-news-body {
   margin-left: 90px;
 }
-/* line 42, ../sass/sass/app/_home.scss */
+/* line 45, ../sass/sass/app/_home.scss */
 .home-news-body h3 {
   font-size: 12px;
   color: #fff;
@@ -8011,7 +8018,7 @@ body {
   margin: 0;
   margin-bottom: 5px;
 }
-/* line 50, ../sass/sass/app/_home.scss */
+/* line 53, ../sass/sass/app/_home.scss */
 .home-news-body p {
   font-size: 9px;
   color: #cceffc;
@@ -8020,24 +8027,27 @@ body {
   line-height: 12px;
 }
 
-/* line 59, ../sass/sass/app/_home.scss */
+/**
+ * 白色企业链接部分
+ */
+/* line 65, ../sass/sass/app/_home.scss */
 .home-service {
   padding: 40px 0;
 }
 
-/* line 63, ../sass/sass/app/_home.scss */
+/* line 69, ../sass/sass/app/_home.scss */
 .home-service-block {
   border-right: solid 1px #eee;
 }
 
-/* line 72, ../sass/sass/app/_home.scss */
+/* line 78, ../sass/sass/app/_home.scss */
 .home-service-body h3 {
   font-size: 12px;
   padding: 0;
   margin: 0;
   margin-bottom: 5px;
 }
-/* line 78, ../sass/sass/app/_home.scss */
+/* line 84, ../sass/sass/app/_home.scss */
 .home-service-body p {
   font-size: 9px;
   color: #999;
@@ -8046,18 +8056,21 @@ body {
   line-height: 12px;
 }
 
-/* line 87, ../sass/sass/app/_home.scss */
+/* line 93, ../sass/sass/app/_home.scss */
 .home-service-mark {
   margin: 5px 0;
 }
 
-/* line 91, ../sass/sass/app/_home.scss */
+/**
+ * 选择框部分
+ */
+/* line 100, ../sass/sass/app/_home.scss */
 .home-switch {
   position: relative;
   width: 100%;
 }
 
-/* line 96, ../sass/sass/app/_home.scss */
+/* line 105, ../sass/sass/app/_home.scss */
 .home-switch-wrapper {
   position: absolute;
   width: 100%;
@@ -8068,12 +8081,12 @@ body {
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-/* line 104, ../sass/sass/app/_home.scss */
+/* line 113, ../sass/sass/app/_home.scss */
 .home-switch-wrapper > .inner {
   padding: 5px 10px;
 }
 
-/* line 109, ../sass/sass/app/_home.scss */
+/* line 118, ../sass/sass/app/_home.scss */
 .home-switch-heading {
   font-size: 14px;
   color: #30517b;
@@ -8081,11 +8094,11 @@ body {
   margin-bottom: 5px;
 }
 
-/* line 116, ../sass/sass/app/_home.scss */
+/* line 125, ../sass/sass/app/_home.scss */
 .home-switch-nav {
   margin-bottom: 10px;
 }
-/* line 120, ../sass/sass/app/_home.scss */
+/* line 129, ../sass/sass/app/_home.scss */
 .home-switch-nav > li > a {
   padding-top: 4px;
   padding-bottom: 4px;
@@ -8098,32 +8111,32 @@ body {
   background: #aabbcf;
   color: #fff;
 }
-/* line 129, ../sass/sass/app/_home.scss */
+/* line 138, ../sass/sass/app/_home.scss */
 .home-switch-nav > li.active > a {
   background: #2c5385;
 }
-/* line 136, ../sass/sass/app/_home.scss */
+/* line 145, ../sass/sass/app/_home.scss */
 .home-switch-nav > li > a:hover, .home-switch-nav > li > a:active,
 .home-switch-nav > li.active > a:hover,
 .home-switch-nav > li.active > a:active {
   background: #2c5385;
 }
 
-/* line 142, ../sass/sass/app/_home.scss */
+/* line 151, ../sass/sass/app/_home.scss */
 .home-switch-form {
   font-size: 12px;
 }
-/* line 145, ../sass/sass/app/_home.scss */
+/* line 154, ../sass/sass/app/_home.scss */
 .home-switch-form .form-group {
   margin-bottom: 5px;
 }
-/* line 149, ../sass/sass/app/_home.scss */
+/* line 158, ../sass/sass/app/_home.scss */
 .home-switch-form .control-label {
   padding-top: 3px;
   font-size: 12px;
   text-align: left;
 }
-/* line 155, ../sass/sass/app/_home.scss */
+/* line 164, ../sass/sass/app/_home.scss */
 .home-switch-form .form-control {
   height: 22px;
   padding: 0px 3px;
@@ -8137,27 +8150,27 @@ body {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 163, ../sass/sass/app/_home.scss */
+/* line 172, ../sass/sass/app/_home.scss */
 .home-switch-form .btn-sm, .home-switch-form .btn-group-sm > .btn {
   height: 22px;
   line-height: 1;
 }
-/* line 168, ../sass/sass/app/_home.scss */
+/* line 177, ../sass/sass/app/_home.scss */
 .home-switch-form .btn-primary {
   background: #2c5386;
   border: none;
 }
-/* line 172, ../sass/sass/app/_home.scss */
+/* line 181, ../sass/sass/app/_home.scss */
 .home-switch-form .btn-primary:hover {
   background: #264773;
   color: #fff;
 }
-/* line 178, ../sass/sass/app/_home.scss */
+/* line 187, ../sass/sass/app/_home.scss */
 .home-switch-form .col-reduce {
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 183, ../sass/sass/app/_home.scss */
+/* line 192, ../sass/sass/app/_home.scss */
 .home-switch-form .input-group-addon {
   padding: 1px 5px;
   -webkit-border-radius: 0;
