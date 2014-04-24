@@ -13,3 +13,18 @@
 		margin-bottom: 15px;
 	}
 }
+
+.article-table-title {
+	font-size: 13px;
+	th {
+		color: $brand-primary;
+		background: #f7f9fd;
+	}
+	tr:first-child {
+		th,
+		td {
+			border-color: $brand-primary;
+			border-width: 2px;
+		}
+	}
+}

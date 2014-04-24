@@ -8100,6 +8100,22 @@ body {
   margin-bottom: 15px;
 }
 
+/* line 17, ../sass/sass/app/_article.scss */
+.article-table-title {
+  font-size: 13px;
+}
+/* line 19, ../sass/sass/app/_article.scss */
+.article-table-title th {
+  color: #2c5386;
+  background: #f7f9fd;
+}
+/* line 25, ../sass/sass/app/_article.scss */
+.article-table-title tr:first-child th,
+.article-table-title tr:first-child td {
+  border-color: #2c5386;
+  border-width: 2px;
+}
+
 /**
  * 深蓝色 PressRelease
  */
