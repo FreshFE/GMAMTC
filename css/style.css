@@ -7896,7 +7896,8 @@ body {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEEEE', endColorstr='#FFD2D2D2', GradientType=0);
 }
-/* line 50, ../sass/sass/app/_layout.scss */
+/* line 51, ../sass/sass/app/_layout.scss */
+.header .navbar-menu > .active > a,
 .header .navbar-menu > .open > a {
   background-image: -webkit-linear-gradient(top, #eeeeee 0%, #d2d2d2 100%);
   background-image: -o-linear-gradient(top, #eeeeee 0%, #d2d2d2 100%);
@@ -7904,11 +7905,11 @@ body {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEEEE', endColorstr='#FFD2D2D2', GradientType=0);
 }
-/* line 56, ../sass/sass/app/_layout.scss */
+/* line 57, ../sass/sass/app/_layout.scss */
 .header .navbar-panel {
   margin-left: 20px;
 }
-/* line 58, ../sass/sass/app/_layout.scss */
+/* line 59, ../sass/sass/app/_layout.scss */
 .header .navbar-panel > li > a {
   color: #a9a9a9;
   font-size: 10px;
@@ -7916,41 +7917,41 @@ body {
   height: 74px;
   line-height: 30px;
 }
-/* line 68, ../sass/sass/app/_layout.scss */
+/* line 69, ../sass/sass/app/_layout.scss */
 .header .navbar-panel > li > a:hover, .header .navbar-panel > li > a:active,
 .header .navbar-panel > .active > a:hover,
 .header .navbar-panel > .active > a:active {
   color: #767676;
   background: transparent;
 }
-/* line 73, ../sass/sass/app/_layout.scss */
+/* line 74, ../sass/sass/app/_layout.scss */
 .header .navbar-panel > .open > a {
   color: #767676;
   background: transparent;
 }
 
-/* line 80, ../sass/sass/app/_layout.scss */
+/* line 81, ../sass/sass/app/_layout.scss */
 .wrapper {
   width: 1200px;
   margin: 0 auto;
 }
 
-/* line 85, ../sass/sass/app/_layout.scss */
+/* line 86, ../sass/sass/app/_layout.scss */
 .footer {
   background: #f2f2f2;
   padding: 30px 0;
 }
-/* line 89, ../sass/sass/app/_layout.scss */
+/* line 90, ../sass/sass/app/_layout.scss */
 .footer .footer-nav {
   font-size: 9px;
   line-height: 14px;
   color: #c2c2c2;
 }
-/* line 94, ../sass/sass/app/_layout.scss */
+/* line 95, ../sass/sass/app/_layout.scss */
 .footer .footer-nav a {
   color: #7f7f7f;
 }
-/* line 99, ../sass/sass/app/_layout.scss */
+/* line 100, ../sass/sass/app/_layout.scss */
 .footer .copyright {
   font-size: 9px;
   line-height: 14px;

@@ -46,6 +46,7 @@ body {
 				@include gradient-vertical(#eee, #d2d2d2);
 			}
 		}
+		> .active > a,
 		> .open > a {
 			& {
 				@include gradient-vertical(#eee, #d2d2d2);
