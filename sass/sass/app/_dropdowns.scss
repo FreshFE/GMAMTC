@@ -1,0 +1,57 @@
+.dropdown-pane {
+    min-width: 360px;
+    @include clearfix();
+    .pane-divide {
+        border-left: solid 1px #ddd;
+        &:first-child {
+            border-left: none;
+        }
+    }
+}
+
+.navbar-nav > li > .dropdown-pane {
+    border-top: none;
+}
+
+/**
+ * 项目自定义部分
+ */
+.dropdown-pane {
+    border-radius: 0;
+    padding: 0 15px;
+
+    .pane-divide {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .pane-divide > .nav {
+        > li {
+
+        }
+        > li > a {
+            color: #3868ae;
+            padding: 10px 5px;
+            span {
+                font-size: 10px;
+            }
+            &:hover {
+                background: transparent;
+                text-decoration: underline;
+            }
+        }
+
+        > li .nav {
+            font-size: 12px;
+            > li > a {
+                color: #666;
+                padding: 3px 0;
+                padding-left: 30px;
+                &:hover {
+                    background: transparent;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
