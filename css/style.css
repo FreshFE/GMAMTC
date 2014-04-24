@@ -7835,93 +7835,111 @@ button.close {
     display: none !important;
   }
 }
-/* line 4, ../sass/sass/app/_layout.scss */
+/* line 3, ../sass/sass/app/_layout.scss */
+body {
+  margin-top: 86px;
+}
+
+/* line 7, ../sass/sass/app/_layout.scss */
 .header {
-  height: 75px;
-  background: url(../img/header_bg.gif) repeat-x;
+  position: fixed;
+  width: 100%;
+  height: 74px;
+  top: 0;
+  left: 0;
   border-bottom: solid 1px #c5c5c5;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(top, white 0%, #d2d2d2 100%);
+  background-image: -o-linear-gradient(top, white 0%, #d2d2d2 100%);
+  background-image: linear-gradient(to bottom, #ffffff 0%, #d2d2d2 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFD2D2D2', GradientType=0);
+  z-index: 100;
 }
-/* line 10, ../sass/sass/app/_layout.scss */
+/* line 18, ../sass/sass/app/_layout.scss */
 .header .navbar-brand {
-  width: 179px;
-  height: 33px;
+  width: 180px;
+  height: 29px;
   padding: 0;
   margin: 0;
-  background: url(../img/logo.gif) no-repeat;
+  background: url(../img/logo.png) no-repeat;
   line-height: 0;
   font-size: 0;
   text-indent: -9999px;
-  margin-top: 22px;
+  margin-top: 18px;
 }
-/* line 22, ../sass/sass/app/_layout.scss */
+/* line 30, ../sass/sass/app/_layout.scss */
 .header .navbar-menu {
-  margin-top: 10px;
   margin-left: 20px;
 }
-/* line 26, ../sass/sass/app/_layout.scss */
+/* line 32, ../sass/sass/app/_layout.scss */
 .header .navbar-menu > li > a {
   color: #345886;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 12px;
+  padding: 22px 15px;
+  height: 74px;
+  line-height: 30px;
 }
-/* line 36, ../sass/sass/app/_layout.scss */
+/* line 44, ../sass/sass/app/_layout.scss */
 .header .navbar-menu > li > a:hover, .header .navbar-menu > li > a:active,
 .header .navbar-menu > .active > a:hover,
 .header .navbar-menu > .active > a:active {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(0, 0, 0, 0.2)), color-stop(100%, rgba(0, 0, 0, 0)));
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%);
-  background: -moz-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%);
-  background: -o-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 100%);
-  -webkit-box-shadow: inset 2px 0 1px rgba(0, 0, 0, 0.01), inset -2px 0 1px rgba(0, 0, 0, 0.01);
-  -moz-box-shadow: inset 2px 0 1px rgba(0, 0, 0, 0.01), inset -2px 0 1px rgba(0, 0, 0, 0.01);
-  box-shadow: inset 2px 0 1px rgba(0, 0, 0, 0.01), inset -2px 0 1px rgba(0, 0, 0, 0.01);
-}
-/* line 46, ../sass/sass/app/_layout.scss */
-.header .navbar-panel {
-  margin-top: 10px;
-  margin-left: 20px;
+  background-image: -webkit-linear-gradient(top, #eeeeee 0%, #d2d2d2 100%);
+  background-image: -o-linear-gradient(top, #eeeeee 0%, #d2d2d2 100%);
+  background-image: linear-gradient(to bottom, #eeeeee 0%, #d2d2d2 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEEEE', endColorstr='#FFD2D2D2', GradientType=0);
 }
 /* line 50, ../sass/sass/app/_layout.scss */
-.header .navbar-panel > li > a {
-  padding: 15px 2px;
-  font-size: 10px;
-  color: #a9a9a9;
+.header .navbar-panel {
+  margin-left: 20px;
 }
-/* line 59, ../sass/sass/app/_layout.scss */
+/* line 52, ../sass/sass/app/_layout.scss */
+.header .navbar-panel > li > a {
+  color: #a9a9a9;
+  font-size: 10px;
+  padding: 22px 5px;
+  height: 74px;
+  line-height: 30px;
+}
+/* line 62, ../sass/sass/app/_layout.scss */
 .header .navbar-panel > li > a:hover, .header .navbar-panel > li > a:active,
 .header .navbar-panel > .active > a:hover,
 .header .navbar-panel > .active > a:active {
   color: #767676;
   background: transparent;
 }
-
 /* line 67, ../sass/sass/app/_layout.scss */
+.header .navbar-panel > .open > a {
+  color: #767676;
+  background: transparent;
+}
+
+/* line 74, ../sass/sass/app/_layout.scss */
 .wrapper {
   width: 1200px;
   margin: 0 auto;
 }
 
-/* line 72, ../sass/sass/app/_layout.scss */
+/* line 79, ../sass/sass/app/_layout.scss */
 .footer {
   background: #f2f2f2;
   padding: 30px 0;
 }
-/* line 77, ../sass/sass/app/_layout.scss */
+/* line 83, ../sass/sass/app/_layout.scss */
 .footer .footer-nav {
   font-size: 9px;
   line-height: 14px;
   color: #c2c2c2;
 }
-/* line 82, ../sass/sass/app/_layout.scss */
+/* line 88, ../sass/sass/app/_layout.scss */
 .footer .footer-nav a {
   color: #7f7f7f;
 }
-/* line 87, ../sass/sass/app/_layout.scss */
+/* line 93, ../sass/sass/app/_layout.scss */
 .footer .copyright {
   font-size: 9px;
   line-height: 14px;
