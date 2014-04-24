@@ -7940,25 +7940,26 @@ body {
 .footer {
   background: #f2f2f2;
   padding: 30px 0;
+  margin-top: 60px;
 }
-/* line 90, ../sass/sass/app/_layout.scss */
+/* line 91, ../sass/sass/app/_layout.scss */
 .footer .footer-nav {
   font-size: 9px;
   line-height: 14px;
   color: #c2c2c2;
 }
-/* line 95, ../sass/sass/app/_layout.scss */
+/* line 96, ../sass/sass/app/_layout.scss */
 .footer .footer-nav a {
   color: #7f7f7f;
 }
-/* line 100, ../sass/sass/app/_layout.scss */
+/* line 101, ../sass/sass/app/_layout.scss */
 .footer .copyright {
   font-size: 9px;
   line-height: 14px;
   color: #adadad;
 }
 
-/* line 107, ../sass/sass/app/_layout.scss */
+/* line 108, ../sass/sass/app/_layout.scss */
 .sidebar-title {
   color: #2c5386;
   font-size: 20px;
@@ -7966,40 +7967,40 @@ body {
   margin-top: 5px;
 }
 
-/* line 114, ../sass/sass/app/_layout.scss */
+/* line 115, ../sass/sass/app/_layout.scss */
 .mainarea-title {
   color: #111;
   font-size: 30px;
   margin-top: 0;
 }
 
-/* line 120, ../sass/sass/app/_layout.scss */
+/* line 121, ../sass/sass/app/_layout.scss */
 .breadcrumb {
   float: right;
   background: transparent;
 }
-/* line 123, ../sass/sass/app/_layout.scss */
+/* line 124, ../sass/sass/app/_layout.scss */
 .breadcrumb .glyphicon {
   font-size: 6px;
   margin-right: 6px;
 }
-/* line 127, ../sass/sass/app/_layout.scss */
+/* line 128, ../sass/sass/app/_layout.scss */
 .breadcrumb > li > a {
   font-size: 12px;
 }
 
-/* line 133, ../sass/sass/app/_layout.scss */
+/* line 134, ../sass/sass/app/_layout.scss */
 .nav-sidebar > li {
   border-bottom: solid 1px #ddd;
 }
-/* line 136, ../sass/sass/app/_layout.scss */
+/* line 137, ../sass/sass/app/_layout.scss */
 .nav-sidebar > li > a {
   padding: 5px 12px;
   font-size: 13px;
   font-weight: bold;
 }
 
-/* line 143, ../sass/sass/app/_layout.scss */
+/* line 144, ../sass/sass/app/_layout.scss */
 .sidebar-banner {
   margin-bottom: 12px;
 }
@@ -8380,4 +8381,20 @@ body {
 /* line 214, ../sass/sass/app/_home.scss */
 .home-carousel .carousel-caption {
   display: none;
+}
+
+/* line 219, ../sass/sass/app/_home.scss */
+.home-auth {
+  background: url(../img/banner.jpg) no-repeat;
+}
+/* line 222, ../sass/sass/app/_home.scss */
+.home-auth .well {
+  border: none;
+  background: url(../img/banner-blur.jpg) no-repeat -540px 0;
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+/* line 226, ../sass/sass/app/_home.scss */
+.home-auth .well > h2 {
+  color: rgba(0, 0, 0, 0.6);
 }

@@ -215,3 +215,16 @@
 	    display: none;
 	}
 }
+
+.home-auth {
+	background: url(../img/banner.jpg) no-repeat;
+
+	.well {
+		border: none;
+		background: url(../img/banner-blur.jpg) no-repeat -540px 0;
+		@include box-shadow(0 5px 20px rgba(0,0,0,.3));
+		> h2 {
+			color: rgba(0,0,0,.6);
+		}
+	}
+}
