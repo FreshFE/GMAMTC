@@ -116,6 +116,11 @@ body {
 	color: #111;
 	font-size: 30px;
 	margin-top: 0;
+
+	&.mainarea-title-sm {
+		font-size: 18px;
+		color: #2c5386;
+	}
 }
 
 .breadcrumb {

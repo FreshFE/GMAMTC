@@ -7973,34 +7973,39 @@ body {
   font-size: 30px;
   margin-top: 0;
 }
+/* line 120, ../sass/sass/app/_layout.scss */
+.mainarea-title.mainarea-title-sm {
+  font-size: 18px;
+  color: #2c5386;
+}
 
-/* line 121, ../sass/sass/app/_layout.scss */
+/* line 126, ../sass/sass/app/_layout.scss */
 .breadcrumb {
   float: right;
   background: transparent;
 }
-/* line 124, ../sass/sass/app/_layout.scss */
+/* line 129, ../sass/sass/app/_layout.scss */
 .breadcrumb .glyphicon {
   font-size: 6px;
   margin-right: 6px;
 }
-/* line 128, ../sass/sass/app/_layout.scss */
+/* line 133, ../sass/sass/app/_layout.scss */
 .breadcrumb > li > a {
   font-size: 12px;
 }
 
-/* line 134, ../sass/sass/app/_layout.scss */
+/* line 139, ../sass/sass/app/_layout.scss */
 .nav-sidebar > li {
   border-bottom: solid 1px #ddd;
 }
-/* line 137, ../sass/sass/app/_layout.scss */
+/* line 142, ../sass/sass/app/_layout.scss */
 .nav-sidebar > li > a {
   padding: 5px 12px;
   font-size: 13px;
   font-weight: bold;
 }
 
-/* line 144, ../sass/sass/app/_layout.scss */
+/* line 149, ../sass/sass/app/_layout.scss */
 .sidebar-banner {
   margin-bottom: 12px;
 }
@@ -8079,6 +8084,72 @@ body {
 .dropdown-pane .pane-divide > .nav > li .nav > li > a:hover {
   background: transparent;
   text-decoration: underline;
+}
+
+/* line 1, ../sass/sass/app/_table.scss */
+.table-scroll {
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+/* line 8, ../sass/sass/app/_table.scss */
+.table-th-word-break th {
+  word-break: keep-all;
+  white-space: nowrap;
+}
+/* line 12, ../sass/sass/app/_table.scss */
+.table-th-word-break td {
+  background: #fff;
+}
+
+/* line 17, ../sass/sass/app/_table.scss */
+.search-input-help {
+  margin-top: -10px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  color: #666;
+}
+/* line 23, ../sass/sass/app/_table.scss */
+.search-input-help .important {
+  color: red;
+}
+
+/* line 28, ../sass/sass/app/_table.scss */
+.text-sm {
+  font-size: 12px;
+}
+
+/* line 32, ../sass/sass/app/_table.scss */
+.search-result-well {
+  background: transparent;
+  border: solid 1px #ddd;
+  border-top: solid 2px #2c5386;
+}
+
+/* line 38, ../sass/sass/app/_table.scss */
+.progress-van {
+  background: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-bottom: 0;
+  height: 29px;
+  overflow: visible;
+}
+/* line 45, ../sass/sass/app/_table.scss */
+.progress-van .progress-bar {
+  position: relative;
+  background: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 49, ../sass/sass/app/_table.scss */
+.progress-van .progress-bar img {
+  display: block;
+  position: absolute;
+  width: 66px;
+  height: 29px;
+  right: -24px;
 }
 
 /* line 1, ../sass/sass/app/_article.scss */
