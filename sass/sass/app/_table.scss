@@ -2,6 +2,10 @@
 	width: 100%;
 	overflow-y: hidden;
 	overflow-x: scroll;
+	min-height: 200px;
+	background: #f2f5fa;
+	margin-bottom: 10px;
+	border-bottom: solid 1px #ddd;
 }
 
 .table-th-word-break {
@@ -53,5 +57,23 @@
 			height: 29px;
 			right: -24px;
 		}
+	}
+}
+
+.search-table {
+	font-size: 12px;
+	& {
+		border-top-color: $brand-primary;
+		border-top-width: 2px;
+	}
+	> thead > tr > th {
+		border-color: #85B2CF;
+		border-bottom-width: 1px;
+		background: #f2f5fa;
+		color: #3f6499;
+	}
+	> tbody > tr > td > a {
+		color: #0033ff;
+		text-decoration: underline;
 	}
 }

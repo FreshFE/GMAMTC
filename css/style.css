@@ -8091,43 +8091,47 @@ body {
   width: 100%;
   overflow-y: hidden;
   overflow-x: scroll;
+  min-height: 200px;
+  background: #f2f5fa;
+  margin-bottom: 10px;
+  border-bottom: solid 1px #ddd;
 }
 
-/* line 8, ../sass/sass/app/_table.scss */
+/* line 12, ../sass/sass/app/_table.scss */
 .table-th-word-break th {
   word-break: keep-all;
   white-space: nowrap;
 }
-/* line 12, ../sass/sass/app/_table.scss */
+/* line 16, ../sass/sass/app/_table.scss */
 .table-th-word-break td {
   background: #fff;
 }
 
-/* line 17, ../sass/sass/app/_table.scss */
+/* line 21, ../sass/sass/app/_table.scss */
 .search-input-help {
   margin-top: -10px;
   margin-bottom: 40px;
   font-size: 12px;
   color: #666;
 }
-/* line 23, ../sass/sass/app/_table.scss */
+/* line 27, ../sass/sass/app/_table.scss */
 .search-input-help .important {
   color: red;
 }
 
-/* line 28, ../sass/sass/app/_table.scss */
+/* line 32, ../sass/sass/app/_table.scss */
 .text-sm {
   font-size: 12px;
 }
 
-/* line 32, ../sass/sass/app/_table.scss */
+/* line 36, ../sass/sass/app/_table.scss */
 .search-result-well {
   background: transparent;
   border: solid 1px #ddd;
   border-top: solid 2px #2c5386;
 }
 
-/* line 38, ../sass/sass/app/_table.scss */
+/* line 42, ../sass/sass/app/_table.scss */
 .progress-van {
   background: transparent;
   -webkit-box-shadow: none;
@@ -8136,20 +8140,42 @@ body {
   height: 29px;
   overflow: visible;
 }
-/* line 45, ../sass/sass/app/_table.scss */
+/* line 49, ../sass/sass/app/_table.scss */
 .progress-van .progress-bar {
   position: relative;
   background: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 49, ../sass/sass/app/_table.scss */
+/* line 53, ../sass/sass/app/_table.scss */
 .progress-van .progress-bar img {
   display: block;
   position: absolute;
   width: 66px;
   height: 29px;
   right: -24px;
+}
+
+/* line 63, ../sass/sass/app/_table.scss */
+.search-table {
+  font-size: 12px;
+}
+/* line 65, ../sass/sass/app/_table.scss */
+.search-table {
+  border-top-color: #2c5386;
+  border-top-width: 2px;
+}
+/* line 69, ../sass/sass/app/_table.scss */
+.search-table > thead > tr > th {
+  border-color: #85B2CF;
+  border-bottom-width: 1px;
+  background: #f2f5fa;
+  color: #3f6499;
+}
+/* line 75, ../sass/sass/app/_table.scss */
+.search-table > tbody > tr > td > a {
+  color: #0033ff;
+  text-decoration: underline;
 }
 
 /* line 1, ../sass/sass/app/_article.scss */
