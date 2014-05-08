@@ -1,4 +1,4 @@
-.table-scroll {
+.tracking-table-scroll {
 	width: 100%;
 	overflow-y: hidden;
 	overflow-x: scroll;
@@ -8,17 +8,7 @@
 	border-bottom: solid 1px #ddd;
 }
 
-.table-th-word-break {
-	th {
-		word-break: keep-all;
-		white-space: nowrap;
-	}
-	td {
-		background: #fff;
-	}
-}
-
-.search-input-help {
+.tracking-input-help {
 	margin-top: -10px;
 	margin-bottom: 40px;
 	font-size: 12px;
@@ -29,17 +19,13 @@
 	}
 }
 
-.text-sm {
-	font-size: 12px;
-}
-
-.search-result-well {
+.tracking-result-well {
 	background: transparent;
 	border: solid 1px #ddd;
 	border-top: solid 2px $brand-primary;
 }
 
-.progress-van {
+.tracking-progress-van {
 	background: transparent;
 	@include box-shadow(none);
 	margin-bottom: 0;
@@ -60,7 +46,7 @@
 	}
 }
 
-.search-table {
+.tracking-table {
 	font-size: 12px;
 	& {
 		border-top-color: $brand-primary;

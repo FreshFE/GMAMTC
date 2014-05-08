@@ -8016,6 +8016,21 @@ body {
   width: 100%;
 }
 
+/* line 6, ../sass/sass/app/_utils.scss */
+.text-sm {
+  font-size: 12px;
+}
+
+/* line 11, ../sass/sass/app/_utils.scss */
+.table-th-word-break th {
+  word-break: keep-all;
+  white-space: nowrap;
+}
+/* line 15, ../sass/sass/app/_utils.scss */
+.table-th-word-break td {
+  background: #fff;
+}
+
 /* line 1, ../sass/sass/app/_dropdowns.scss */
 .dropdown-pane {
   min-width: 360px;
@@ -8087,7 +8102,7 @@ body {
 }
 
 /* line 1, ../sass/sass/app/_table.scss */
-.table-scroll {
+.tracking-table-scroll {
   width: 100%;
   overflow-y: hidden;
   overflow-x: scroll;
@@ -8097,42 +8112,27 @@ body {
   border-bottom: solid 1px #ddd;
 }
 
-/* line 12, ../sass/sass/app/_table.scss */
-.table-th-word-break th {
-  word-break: keep-all;
-  white-space: nowrap;
-}
-/* line 16, ../sass/sass/app/_table.scss */
-.table-th-word-break td {
-  background: #fff;
-}
-
-/* line 21, ../sass/sass/app/_table.scss */
-.search-input-help {
+/* line 11, ../sass/sass/app/_table.scss */
+.tracking-input-help {
   margin-top: -10px;
   margin-bottom: 40px;
   font-size: 12px;
   color: #666;
 }
-/* line 27, ../sass/sass/app/_table.scss */
-.search-input-help .important {
+/* line 17, ../sass/sass/app/_table.scss */
+.tracking-input-help .important {
   color: red;
 }
 
-/* line 32, ../sass/sass/app/_table.scss */
-.text-sm {
-  font-size: 12px;
-}
-
-/* line 36, ../sass/sass/app/_table.scss */
-.search-result-well {
+/* line 22, ../sass/sass/app/_table.scss */
+.tracking-result-well {
   background: transparent;
   border: solid 1px #ddd;
   border-top: solid 2px #2c5386;
 }
 
-/* line 42, ../sass/sass/app/_table.scss */
-.progress-van {
+/* line 28, ../sass/sass/app/_table.scss */
+.tracking-progress-van {
   background: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -8140,15 +8140,15 @@ body {
   height: 29px;
   overflow: visible;
 }
-/* line 49, ../sass/sass/app/_table.scss */
-.progress-van .progress-bar {
+/* line 35, ../sass/sass/app/_table.scss */
+.tracking-progress-van .progress-bar {
   position: relative;
   background: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 53, ../sass/sass/app/_table.scss */
-.progress-van .progress-bar img {
+/* line 39, ../sass/sass/app/_table.scss */
+.tracking-progress-van .progress-bar img {
   display: block;
   position: absolute;
   width: 66px;
@@ -8156,24 +8156,24 @@ body {
   right: -24px;
 }
 
-/* line 63, ../sass/sass/app/_table.scss */
-.search-table {
+/* line 49, ../sass/sass/app/_table.scss */
+.tracking-table {
   font-size: 12px;
 }
-/* line 65, ../sass/sass/app/_table.scss */
-.search-table {
+/* line 51, ../sass/sass/app/_table.scss */
+.tracking-table {
   border-top-color: #2c5386;
   border-top-width: 2px;
 }
-/* line 69, ../sass/sass/app/_table.scss */
-.search-table > thead > tr > th {
+/* line 55, ../sass/sass/app/_table.scss */
+.tracking-table > thead > tr > th {
   border-color: #85B2CF;
   border-bottom-width: 1px;
   background: #f2f5fa;
   color: #3f6499;
 }
-/* line 75, ../sass/sass/app/_table.scss */
-.search-table > tbody > tr > td > a {
+/* line 61, ../sass/sass/app/_table.scss */
+.tracking-table > tbody > tr > td > a {
   color: #0033ff;
   text-decoration: underline;
 }
