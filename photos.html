@@ -5,6 +5,7 @@
 	<title>HANJIN SHIPPING</title>
 
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/bower_components/fontawesome/css/font-awesome.min.css">
     <!--[if lt IE 9]>
         <script src="/bower_components/html5shiv/dist/html5shiv.js"></script>
         <script src="/bower_components/respond/dest/respond.min.js"></script>
@@ -97,7 +98,7 @@
 				<div class="gallery">
 					<div class="gallery-heading">
 						<h4>Container Vessel</h4>
-						<button class="btn btn-primary gallery-btn">Hide <i class="glyphicon glyphicon-chevron-up"></i></button>
+						<button class="btn btn-primary gallery-btn">Hide <span class="fa fa-angle-up"></span></button>
 					</div>
 					<div class="gallery-body">
 						<ul class="nav gallery-items">
@@ -138,7 +139,7 @@
 				<div class="gallery">
 					<div class="gallery-heading">
 						<h4>Container Vessel</h4>
-						<button class="btn btn-primary gallery-btn">Hide <i class="glyphicon glyphicon-chevron-up"></i></button>
+						<button class="btn btn-primary gallery-btn">Hide <i class="fa fa-angle-up"></i></button>
 					</div>
 					<div class="gallery-body">
 						<ul class="nav gallery-items">
@@ -197,12 +198,12 @@
 
 				// Show status
 				if ($(this).data('show')) {
-					$(this).html('Hide <i class="glyphicon glyphicon-chevron-up"></i>');
+					$(this).html('Hide <span class="fa fa-angle-up"></span>');
 					$(this).data('show', false);
 				}
 				// Hide status
 				else {
-					$(this).html('Show <i class="glyphicon glyphicon-chevron-down"></i>');
+					$(this).html('Show <span class="fa fa-angle-down"></span>');
 					$(this).data('show', true);
 				}
 			});
