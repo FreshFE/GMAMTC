@@ -23,9 +23,8 @@
     font-size: .8em;
     @include border-top-radius(3px);
 
-    .glyphicon {
-      font-size: .5em;
-      font-weight: 100;
+    .fa {
+      font-size: 1.5em;
     }
   }
 }

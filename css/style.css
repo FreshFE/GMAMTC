@@ -8212,30 +8212,29 @@ body {
   border-top-left-radius: 3px;
 }
 /* line 26, ../sass/sass/app/_gallery.scss */
-.gallery-heading .gallery-btn .glyphicon {
-  font-size: .5em;
-  font-weight: 100;
+.gallery-heading .gallery-btn .fa {
+  font-size: 1.5em;
 }
 
-/* line 37, ../sass/sass/app/_gallery.scss */
+/* line 36, ../sass/sass/app/_gallery.scss */
 ul.gallery-items {
   margin-left: -10px;
   margin-top: -20px;
 }
-/* line 44, ../sass/sass/app/_gallery.scss */
+/* line 43, ../sass/sass/app/_gallery.scss */
 ul.gallery-items > li {
   float: left;
   margin-left: 20px;
   margin-top: 20px;
 }
-/* line 50, ../sass/sass/app/_gallery.scss */
+/* line 49, ../sass/sass/app/_gallery.scss */
 ul.gallery-items > li > a {
   padding: 3px;
   border: solid 1px #e5e5e5;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
 }
-/* line 58, ../sass/sass/app/_gallery.scss */
+/* line 57, ../sass/sass/app/_gallery.scss */
 ul.gallery-items > li > a:hover,
 ul.gallery-items > li.active > a,
 ul.gallery-items > li.focus > a {
@@ -8246,7 +8245,7 @@ ul.gallery-items > li.focus > a {
   -webkit-transition-property: border-color;
   transition-property: border-color;
 }
-/* line 65, ../sass/sass/app/_gallery.scss */
+/* line 64, ../sass/sass/app/_gallery.scss */
 ul.gallery-items > li > a > img {
   display: block;
   width: 160px;
