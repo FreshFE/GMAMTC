@@ -102,32 +102,32 @@
 					<div class="gallery-body">
 						<ul class="nav gallery-items">
 							<li>
-								<a href="#">
+								<a class="fancybox" rel="gallery-0" href="http://www.hanjin.com/hanjin/FileDownload?key=plnlof_20111129132337826.jpg" title="Hanjin-Valencia-(4000-TEU-Class)">
 									<img src="http://www.hanjin.com/hanjin/FileDownload?key=wostaq_20111221104822739.jpg">
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a class="fancybox" rel="gallery-0" href="http://www.hanjin.com/hanjin/FileDownload?key=plnlof_20111129132337826.jpg" title="Hanjin-Valencia-(4000-TEU-Class)">
 									<img src="http://www.hanjin.com/hanjin/FileDownload?key=wostaq_20111221104822739.jpg">
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a class="fancybox" rel="gallery-0" href="http://www.hanjin.com/hanjin/FileDownload?key=plnlof_20111129132337826.jpg" title="Hanjin-Valencia-(4000-TEU-Class)">
 									<img src="http://www.hanjin.com/hanjin/FileDownload?key=wostaq_20111221104822739.jpg">
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a class="fancybox" rel="gallery-0" href="http://www.hanjin.com/hanjin/FileDownload?key=plnlof_20111129132337826.jpg" title="Hanjin-Valencia-(4000-TEU-Class)">
 									<img src="http://www.hanjin.com/hanjin/FileDownload?key=wostaq_20111221104822739.jpg">
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a class="fancybox" rel="gallery-0" href="http://www.hanjin.com/hanjin/FileDownload?key=plnlof_20111129132337826.jpg" title="Hanjin-Valencia-(4000-TEU-Class)">
 									<img src="http://www.hanjin.com/hanjin/FileDownload?key=wostaq_20111221104822739.jpg">
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a class="fancybox" rel="gallery-0" href="http://www.hanjin.com/hanjin/FileDownload?key=plnlof_20111129132337826.jpg" title="Hanjin-Valencia-(4000-TEU-Class)">
 									<img src="http://www.hanjin.com/hanjin/FileDownload?key=wostaq_20111221104822739.jpg">
 								</a>
 							</li>
@@ -143,32 +143,12 @@
 					<div class="gallery-body">
 						<ul class="nav gallery-items">
 							<li>
-								<a href="#">
+								<a class="fancybox" rel="gallery-1" href="http://www.hanjin.com/hanjin/FileDownload?key=plnlof_20111129132337826.jpg" title="Hanjin-Valencia-(4000-TEU-Class)">
 									<img src="http://www.hanjin.com/hanjin/FileDownload?key=wostaq_20111221104822739.jpg">
 								</a>
 							</li>
 							<li>
-								<a href="#">
-									<img src="http://www.hanjin.com/hanjin/FileDownload?key=wostaq_20111221104822739.jpg">
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="http://www.hanjin.com/hanjin/FileDownload?key=wostaq_20111221104822739.jpg">
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="http://www.hanjin.com/hanjin/FileDownload?key=wostaq_20111221104822739.jpg">
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<img src="http://www.hanjin.com/hanjin/FileDownload?key=wostaq_20111221104822739.jpg">
-								</a>
-							</li>
-							<li>
-								<a href="#">
+								<a class="fancybox" rel="gallery-1" href="http://www.hanjin.com/hanjin/FileDownload?key=plnlof_20111129132337826.jpg" title="Hanjin-Valencia-(4000-TEU-Class)">
 									<img src="http://www.hanjin.com/hanjin/FileDownload?key=wostaq_20111221104822739.jpg">
 								</a>
 							</li>
@@ -205,9 +185,14 @@
 		</div>
 	</div>
 
+	<link rel="stylesheet" type="text/css" href="/bower_components/fancybox/source/jquery.fancybox.css">
+	<link rel="stylesheet" type="text/css" href="/bower_components/fancybox/source/helpers/jquery.fancybox-thumbs.css">
+	<script type="text/javascript" src="/bower_components/fancybox/source/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="/bower_components/fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('.gallery-btn').on('click', function(event) {
+
 				$(this).parent().next().slideToggle();
 
 				// Show status
@@ -219,6 +204,18 @@
 				else {
 					$(this).html('Show <i class="glyphicon glyphicon-chevron-down"></i>');
 					$(this).data('show', true);
+				}
+			});
+		});
+		$(document).ready(function() {
+			$('.fancybox').fancybox({
+				helpers: {
+					thumbs: {},
+					overlay : {
+            css : {
+							'background' : 'rgba(0,0,0,.3)'
+            }
+	        }
 				}
 			});
 		});
