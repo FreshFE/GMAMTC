@@ -8074,28 +8074,31 @@ body {
 /* line 32, ../sass/sass/app/_dropdowns.scss */
 .dropdown-pane .pane-divide > .nav > li > a {
   color: #3868ae;
-  padding: 10px 5px;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 24px;
 }
-/* line 35, ../sass/sass/app/_dropdowns.scss */
+/* line 38, ../sass/sass/app/_dropdowns.scss */
 .dropdown-pane .pane-divide > .nav > li > a span {
   font-size: 10px;
 }
-/* line 38, ../sass/sass/app/_dropdowns.scss */
+/* line 41, ../sass/sass/app/_dropdowns.scss */
 .dropdown-pane .pane-divide > .nav > li > a:hover {
   background: transparent;
   text-decoration: underline;
 }
-/* line 44, ../sass/sass/app/_dropdowns.scss */
+/* line 47, ../sass/sass/app/_dropdowns.scss */
 .dropdown-pane .pane-divide > .nav > li .nav {
   font-size: 12px;
 }
-/* line 46, ../sass/sass/app/_dropdowns.scss */
+/* line 49, ../sass/sass/app/_dropdowns.scss */
 .dropdown-pane .pane-divide > .nav > li .nav > li > a {
   color: #666;
   padding: 3px 0;
   padding-left: 30px;
 }
-/* line 50, ../sass/sass/app/_dropdowns.scss */
+/* line 53, ../sass/sass/app/_dropdowns.scss */
 .dropdown-pane .pane-divide > .nav > li .nav > li > a:hover {
   background: transparent;
   text-decoration: underline;
