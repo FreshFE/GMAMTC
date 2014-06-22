@@ -8176,6 +8176,80 @@ body {
   font-size: 12px;
 }
 
+/* line 5, ../sass/sass/app/_gallery.scss */
+.gallery-heading {
+  position: relative;
+  border-bottom: solid 2px #2c5386;
+  margin-bottom: 20px;
+}
+/* line 15, ../sass/sass/bootstrap-sass/bootstrap/mixins/_clearfix.scss */
+.gallery-heading:before, .gallery-heading:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../sass/sass/bootstrap-sass/bootstrap/mixins/_clearfix.scss */
+.gallery-heading:after {
+  clear: both;
+}
+/* line 11, ../sass/sass/app/_gallery.scss */
+.gallery-heading h4 {
+  padding: 0;
+  margin-bottom: 5px;
+}
+/* line 16, ../sass/sass/app/_gallery.scss */
+.gallery-heading .gallery-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 24px;
+  line-height: 24px;
+  padding: 1px 8px;
+  font-size: .8em;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+/* line 26, ../sass/sass/app/_gallery.scss */
+.gallery-heading .gallery-btn .glyphicon {
+  font-size: .5em;
+  font-weight: 100;
+}
+
+/* line 37, ../sass/sass/app/_gallery.scss */
+ul.gallery-items {
+  margin-left: -10px;
+  margin-top: -20px;
+}
+/* line 44, ../sass/sass/app/_gallery.scss */
+ul.gallery-items > li {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+/* line 50, ../sass/sass/app/_gallery.scss */
+ul.gallery-items > li > a {
+  padding: 3px;
+  border: solid 1px #e5e5e5;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+/* line 58, ../sass/sass/app/_gallery.scss */
+ul.gallery-items > li > a:hover,
+ul.gallery-items > li.active > a,
+ul.gallery-items > li.focus > a {
+  background: transparent;
+  border-color: #2c5386;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+}
+/* line 65, ../sass/sass/app/_gallery.scss */
+ul.gallery-items > li > a > img {
+  display: block;
+  width: 160px;
+  height: 100px;
+}
+
 /**
  * 深蓝色 PressRelease
  */
